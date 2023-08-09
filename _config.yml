@@ -19,7 +19,7 @@ url: "https://patrickbarnes.co.nz"
 ####################################
 ######   Optional Features    ######
 ####################################
-smooth-scroll: false
+smooth-scroll: true
 
 ####################################
 ###########   Plugins    ###########
@@ -120,7 +120,7 @@ credit-years:
         company: World of WearableArt (WOW) Ltd
         venue: TSB Arena
         discipline: Theatre
-      - title: Destiny's Cousin - The Reunion Tour
+      - title: Destiny's Cousin - The Reunion Spectacular
         role: Production Designer
         company: Destiny's Cousin
         venue: Gryphon Theatre
@@ -246,7 +246,7 @@ credit-years:
         company: Mountview
         venue: The Mack, Mountviuew
         discipline: Musical Theatre
-      - title: The Bone Theif
+      - title: The Bone Thief
         role: Mastering
         company: Red Scare Theatre
         venue: Cast Recording
@@ -281,8 +281,8 @@ credit-years:
   - title: 2018
     shows:
       - title: If/Then
-        role: Production Management & Sound Designer
-        company: Wellington Footlights Society
+        role: Production Manager & Sound Designer
+        company: Wellington Footlights
         venue: Gryphon Theatre
         discipline: Musical Theatre
       - title: Gutenberg! The Musical!
@@ -292,7 +292,7 @@ credit-years:
         discipline: Musical Theatre
       - title: Chess
         role: Sound Designer
-        company: Wellington Footlights Society
+        company: Wellington Footlights
         venue: Te Auaha
         discipline: Musical Theatre
       - title: Movers
@@ -307,12 +307,13 @@ credit-years:
         discipline:  Musical Theatre  
       - title: Space
         role: Sound Designer
-        company: Supertonic Theatre
+        company: Supertonic
         venue: Hannah Playhouse
         discipline:  Choral
       - title: Two Hearts - Restart the Hearts
         role: Stage Manager
         company: Two Hearts
+        venue: San Fran
         discipline: Musical Comedy
   - title: 2017
     shows:
