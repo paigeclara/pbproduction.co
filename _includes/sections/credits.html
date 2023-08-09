@@ -1,0 +1,35 @@
+<!-- About Section -->
+<section class="site-section about-section" id="about">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-1 col-sm-12 section-header">
+        <h1>Credits</h1>
+        <br class="normal">
+        <br class="normal">
+        <br class="normal">
+
+      </header>
+
+
+      <!-- Section Content -->
+      <div class="col-md-12 col-md-push-1 col-sm-12 section-content ">
+        {% for year in site.credit-years %}
+          <h2> {{year.title}}</h2>
+          <br>
+          <div class="section-credits">
+            {% for show in year.shows %}
+              <p> <b>{{show.title}}</b>  {{show.role}} / {{show.company}} / {{show.venue}}  </p>
+            {% endfor %}
+          </div>
+         <br>
+        {% endfor %}
+      </div>
+
+    </div>
+
+  </div>
+</section>

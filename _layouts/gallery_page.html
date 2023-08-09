@@ -1,0 +1,44 @@
+---
+layout: default
+title: Gallery
+
+---
+<style TYPE="text/css">
+.gallery-image-wrapper {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin: 1em;
+  position: relative;
+}
+.gallery-image {
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  max-height: 100%;
+  max-width: 100%;
+}
+</style>
+
+<section class="site-section about-section" id="about">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <header class="col-md-8 col-md-push-1 col-sm-12 section-header">
+        <h1>Gallery</h1>
+        <br>
+    </header>
+    <div class="col-md-12 col-md-push-1 col-sm-12 section-content ">
+
+        {% for image in page.images %}
+            <div class="gallery-image-wrapper">
+                <a name="{{ image.name }}"></a>
+                <a href="{{ image.name }}"{% if site.gallery.lightbox %} rel="lightbox[{{ page.gallery }}]"{% endif %}>
+                    <img class="gallery-image" src="thumbs/{{ image.name }}" />
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+  </div>
+</section>

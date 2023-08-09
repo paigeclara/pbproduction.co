@@ -1,0 +1,60 @@
+/**
+ *
+ *  Feature Image Style
+ *
+ *  @package ohkimur_layout
+ *
+ **/
+
+section.feature-image-section {
+  position: relative;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+
+
+// Parallax-wrapper
+  .parallax-wrapper {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    max-height: 1080px;
+    top: 0;
+    left: 0;
+  }
+
+  .container {
+    position: relative;
+    min-height: 100vh;
+    max-height: 1080px;
+  }
+
+  .logo {
+      img {
+        display: block;
+        float: left;
+      }
+    }
+
+    // Site Header Banner
+  .header-banner {
+    height: calc(60vh);
+    max-height: calc(1080px - 250px);
+    z-index: 2;
+    color: $white;
+
+    .heading-content {
+      width: 80%;
+
+      .heading-title {
+          img {
+            display: block;
+            float: right;
+          }
+      }
+    }
+  }
+
+}

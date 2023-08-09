@@ -1,0 +1,104 @@
+/**
+ *
+ *  Header Style
+ *
+ *  @package ohkimur_layout
+ *
+ **/
+
+header.site-header {
+  position: relative;
+  width: 100%;
+  height:60px;
+  z-index: 3;
+  background: #0f0f0f !important;
+
+  // Blog Header
+  &.blog-header {
+    height: 600px;
+
+    .parallax-wrapper {
+      height: 600px;
+    }
+
+    .container {
+      height: 600px;
+    }
+
+    .header-banner {
+      height: calc(600px - 250px);
+    }
+  }
+
+
+
+  // Site Navigation Bar
+  .site-navigation-bar {
+    position: relative;
+    height: 60px;
+    z-index: 2;
+
+    .logo{
+      color: #ffffff !important;
+      font-size: 24px;
+    }
+
+
+    // Navigation Bar
+    .navigation-bar {
+
+      nav.nav-menu {
+        position: relative;
+        display: block;
+        float: right;
+
+        ul {
+          li {
+            float: left;
+            margin-right: 30px;
+
+            &:last-child {
+              margin-right: 0;
+            }
+
+            &.current-menu-item {
+              a {
+                color: $primary;
+                position: relative;
+
+                &:before {
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  width: 50%;
+                  height: 1px;
+                  left: 50%;
+                  bottom: -10px;
+                  transform: translateX(-50%);
+                  background-color: $primary;
+                }
+              }
+            }
+
+            a {
+              display: block;
+              color: $white;
+              padding: 10px 0;
+
+              &:hover,
+              &:active {
+                color: $primary;
+              }
+
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+
+  
+
+}

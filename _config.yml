@@ -1,0 +1,370 @@
+#
+# Sera - OnePage Jekyll Theme
+# Configuration File
+#
+
+# Information for compile
+exclude: ["Gemfile", "README.md"]
+
+# Sass configuration
+sass:
+  sass_dir: _scss
+
+# Information for deploy
+baseurl:
+
+# the base hostname & protocol for your site
+url: "http://localhost:4000"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: false
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives
+  - jekyll-gallery-generator
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: "archive"
+  permalinks:
+    category: "/category/:name/"
+    tag: "/tag/:name/"
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: Patrick Barnes Production
+# Website language
+lang: en-US
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: hello@patrickbarnes.co.nz
+
+
+####################################
+######  Global Social Links   ######
+####################################
+youtube: "#"
+pinterest: "#"
+facebook: "#"
+twitter: "#"
+google-plus: "#"
+vimeo: "#"
+
+#########################
+######   Widgets   ######
+#########################
+
+#
+# About Blog Author Widget
+#
+about-widget:
+  author-avatar: avatar-02.jpg
+  author-name: John Doe
+  author-tagline: Blog Author
+  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+  author-social-links:
+    youtube: "#"
+    pinterest: "#"
+    facebook: "#"
+    twitter: "#"
+    google-plus: "#"
+
+#########################
+######   Gallery   ######
+#########################
+
+gallery:
+  dir: photos               # Path to the gallery
+  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "Photos"           # Title for gallery index page
+  title_prefix: "Photos: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  sort_field: "date_time"   # How to sort galleries on the index page.
+                            # Possible values are: title, date_time, best_image
+  thumbnail_size:
+    x: 400                  # max width of thumbnails (in pixels)
+    y: 400                  # max height of thumbnails (in pixels)
+  # The following options are for individual galleries.
+  galleries:
+    gallery:
+      best_image: TheSandman.jpeg  # The image to show on the gallery index page. Defaults to the last image.
+      sort_reverse: true
+
+#####################################
+############   Credits   ############
+#####################################
+#
+# Credits
+#
+credit-years:
+  - title: 2023
+    shows:
+    # Show Item
+      - title: 2023 World of WearableArt Show
+        role: Audio Playback and Timecode Operator
+        company: World of WearableArt (WOW) Ltd
+        venue: TSB Arena
+        discipline: Theatre
+      - title: Destiny's Cousin - The Reunion Tour
+        role: Production Designer
+        company: Destiny's Cousin
+        venue: Gryphon Theatre
+        discipline: Musical Comedy
+      - title: Kia Mau Festival
+        role: Technical Core Crew
+        company: Kia Mau
+        venue: Wellington
+        discipline: Theatre
+      - title: Sing, Sing, Sing!
+        role: Lighting Designer
+        company: Supertonic
+        venue: Queen Margaret College
+        discipline: Choral
+      - title: NZ Comedy Festival
+        role: Technical Operator
+        company: NZ Comedy Trust
+        venue: Te Auaha 
+        discipline: Comedy
+      - title: The Coven on Grey Street
+        role: Sound Designer
+        company: Red Scare Theatre
+        venue: Circa
+        discipline: Theatre
+      - title: Into the Woods
+        role: Sound Designer
+        company: WITCH Music Theatre
+        venue: Te Auaha
+        discipline: Musical Theatre
+      - title: Amygdala
+        role: Lighting Designer
+        company: Jenire Choreography
+        venue: Te Auaha
+        discipline: Dance
+      - title: Paradox
+        role: Lighting Designer
+        company: Beth Sammons Dance
+        venue: Te Auaha
+        discipline: Dance
+  - title: 2022
+    shows:
+      - title: Homemade Takeaways
+        role: Production Manager
+        company: Red Scare Theatre
+        venue: BATS
+        discipline: Theatre, Dance, Musical Theatre
+      - title: E/MERGE Festival
+        role: Technical Operator
+        company: Whitiriea
+        venue: Te Auaha
+        discipline: Theatre, Dance, Musical Theatre
+      - title: Blood, Sweat & Broadway
+        role: Lighting and Sound Designer
+        company: Whitiriea Musical Theatre
+        venue: Te Auaha
+        discipline: Musical Theatre
+      - title: Wet Dreamz
+        role: Lighting Designer
+        company: Wet Dreamz Collective
+        venue: Te Auaha
+        discipline: Musical Theatre
+  - title: 2021
+    shows:
+      - title: ROXY
+        role: Sound Designer and Operator
+        company: WITCH Music Theatre
+        venue: Te Auaha
+        discipline: Musical Theatre
+      - title: Footloose
+        role: Sound and Lighting Designer
+        company: Whitireia Music Theatre
+        venue: Te Auaha
+        discipline: Musical Theatre
+      - title: That's All She Wrote
+        role: Sound Designer and Operator
+        company: Red Scare Theatre
+        venue: Te Auaha
+        discipline: Musical Cabaret
+      - title: Sweeney Todd - The Demon Barber of Fleet Street
+        role: Sound Designer and Operator
+        company: WITCH Music Theatre
+        venue: Te Auaha
+        discipline: Musical Theatre
+      - title: Two Hearts - We're Pregnant and the Baby is Music
+        role: Sound Designer and Operator
+        company: Two Hearts
+        venue: San Fran & Q Rangatira
+        discipline: Musical Comedy
+      - title: 3 Monkeys
+        role: Lighting Designer
+        company: Mizaru Collective
+        venue: Te Auaha
+        discipline: Dance
+      - title: That Bloody Woman
+        role: Sound Designer
+        company: Stagecraft
+        venue: Gryphon Theatre
+        discipline: Dance
+  - title: 2020
+    shows:
+      - title: Silver Linings
+        role: Sound and Lighting Designer
+        company: Wellington Footlights
+        venue: Te Auaha
+        discipline: Musical Theatre
+      - title: Jesus Christ Superstar
+        role: Sound and Lighting Designer
+        company: Wellington Footlights
+        venue: Te Auaha
+        discipline: Musical Theatre
+      - title: That's All She Wrote (Development Season)
+        role: Sound Designer and Operator
+        company: Red Scare Theatre
+        venue: Circa
+        discipline: Musical Cabaret
+      - title: Apocalypse Songs
+        role: Recording Engineer
+        company: Red Scare Theatre
+        venue: Audio Drama
+        discipline: Audio Drama
+      - title: Betty Blue Eyes
+        role: Sound No. 3
+        company: Mountview
+        venue: The Mack, Mountviuew
+        discipline: Musical Theatre
+      - title: The Bone Theif
+        role: Mastering
+        company: Red Scare Theatre
+        venue: Cast Recording
+        discipline: Original Cast Recording
+  - title: 2019
+    shows:
+      - title: The Sandman - A Christmas Fairytale
+        role: Sound No. 1
+        company: Mountview
+        venue: The Mack, Mountview
+        discipline: Musical Theatre
+      - title: The Stunners Opera
+        role: Production Sound Engineer
+        company: Mountview
+        venue: Backstage Theatre, Mountview
+        discipline: Musical Theatre
+      - title: My Fair Lady
+        role: Sound Designer
+        company: Wellington Footlights
+        venue: Te Auaha
+        discipline: Musical Theatre
+      - title: Two Hearts - The Comeback Tour
+        role: Sound and Lighting Designer
+        company: Two Hearts
+        venue: BATS
+        discipline: Musical Comedy
+      - title: Leaving the Table
+        role: Sound Designer
+        company: Supertonic
+        venue: Te Whaea
+        discipline: Choral
+  - title: 2018
+    shows:
+      - title: If/Then
+        role: Production Management & Sound Designer
+        company: Wellington Footlights Society
+        venue: Gryphon Theatre
+        discipline: Musical Theatre
+      - title: Gutenberg! The Musical!
+        role: Stage Manager
+        company: Red Scare Theatre
+        venue: Newtown Community Center
+        discipline: Musical Theatre
+      - title: Chess
+        role: Sound Designer
+        company: Wellington Footlights Society
+        venue: Te Auaha
+        discipline: Musical Theatre
+      - title: Movers
+        role: Sound Designer
+        company: Red Scare Theatre
+        venue: BATS (Wellington), Basement Theatre (Auckland), The Meteor (Hamilton)
+        discipline:  Theatre  
+      - title: M'Lady (Original Cast Recording)
+        role: Recording Engineer
+        company: Red Scare Theatre
+        venue: Cast Recording
+        discipline:  Musical Theatre  
+      - title: Space
+        role: Sound Designer
+        company: Supertonic Theatre
+        venue: Hannah Playhouse
+        discipline:  Choral
+      - title: Two Hearts - Restart the Hearts
+        role: Stage Manager
+        company: Two Hearts
+        discipline: Musical Comedy
+  - title: 2017
+    shows:
+      - title: Wonderland
+        role: Sound Designer
+        company: Stagecraft
+        venue: Gryphon Theatre
+        discipline: Musical Theatre
+      - title: Carrie the Musical
+        role: Sound Designer
+        company: WITCH Music Theatre
+        venue: BATS
+        discipline: Musical Theatre
+      - title: Thunderbolt and Lightning
+        role: Sound Designer
+        company: Supertonic
+        venue: Hunter Lounge
+        discipline: Choral
+      - title: Yellow Face
+        role: Sound Designer
+        company: Red Scare Theatre
+        venue: Whitireia Performance Center
+        discipline: Theatre
+  - title: 2016
+    shows:
+      - title: Heathers the Musical
+        role: Sound and Lighting Designer
+        company: Wellington Footlights
+        venue: Whitireia Performance Center
+        discipline: Musical Theatre
+      - title: Jukebox Heroes
+        role: Sound Designer
+        company: Backyard Theatre
+        venue: Gryphon Theatre
+        discipline: Musical Theatre
+  - title: 2015
+    shows:
+      - title: Fighting in the Dancehall
+        role: Sound Designer
+        company: Supertonic
+        venue: Hunter Lounge
+        discipline: Choral
+
+#####################################
+############   Contact   ############
+#####################################
+contact-title: Contact Us
+contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-copyright-text: Patrick Barnes Production
+footer-copyright-url: https://patrickbarnes.co.nz
+footer-copyright-year: 2023
