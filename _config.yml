@@ -112,6 +112,14 @@ gallery:
 # Credits
 #
 credit-years:
+  - title: 2024
+    shows:
+    # Show Item
+      - title: 'The Supper Club'
+        role: Additional Sound Designer
+        company: Ali-Kat Productions
+        venue: Circa Theatre
+        discipline: Theatre
   - title: 2023
     shows:
     # Show Item
@@ -373,4 +381,4 @@ contact-description: Nulla a tellus at turpis gravida congue non interdum et mal
 #####################################
 footer-copyright-text: Patrick Barnes Production
 footer-copyright-url: https://patrickbarnes.co.nz
-footer-copyright-year: 2023
+footer-copyright-year: 2024
