@@ -44,7 +44,7 @@ jekyll-archives:
 #######################################################
 
 # This is your site title
-title: Patrick Barnes Production
+title: PB Production
 # Website language
 lang: en-US
 
@@ -53,7 +53,7 @@ lang: en-US
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: hello@patrickbarnes.co.nz
+email: hello@pbproduction.co
 
 
 ####################################
@@ -389,6 +389,6 @@ contact-description: Nulla a tellus at turpis gravida congue non interdum et mal
 #####################################
 #############   Footer   ############
 #####################################
-footer-copyright-text: Patrick Barnes Production
+footer-copyright-text: PB Production
 footer-copyright-url: https://pbproduction.co
 footer-copyright-year: 2024

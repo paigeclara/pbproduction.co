@@ -1,4 +1,4 @@
-name: Patrick Barnes Production [DEBUG MODE]
+name: PB Production [DEBUG MODE]
 debug: true
 url: http://127.0.0.1:4000
 baseurl: ''
