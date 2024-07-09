@@ -14,7 +14,7 @@ sass:
 base_url: ''
 
 # the base hostname & protocol for your site
-relative_url: "https://ppbproduction.co"
+relative_url: "https://pbproduction.co"
 
 ####################################
 ######   Optional Features    ######
@@ -22,7 +22,7 @@ relative_url: "https://ppbproduction.co"
 smooth-scroll: true
 
 ####################################
-###########   Plugins    ###########
+###########   Plugins    ###########ß
 ####################################
 plugins:
   - jekyll-archives
