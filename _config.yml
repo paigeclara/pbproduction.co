@@ -14,7 +14,7 @@ sass:
 base_url: ''
 
 # the base hostname & protocol for your site
-relative_url: "https://patrickbarnes.co.nz"
+relative_url: "https://ppbproduction.co"
 
 ####################################
 ######   Optional Features    ######
@@ -380,5 +380,5 @@ contact-description: Nulla a tellus at turpis gravida congue non interdum et mal
 #############   Footer   ############
 #####################################
 footer-copyright-text: Patrick Barnes Production
-footer-copyright-url: https://patrickbarnes.co.nz
+footer-copyright-url: https://pbproduction.co
 footer-copyright-year: 2024
