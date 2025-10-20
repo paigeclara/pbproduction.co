@@ -112,6 +112,25 @@ gallery:
 # Credits
 #
 credit-years:
+  - title: 2025
+    shows:
+    # Show Item
+      - title: The Nutcracker
+        role: Head of Sound
+        company: Royal New Zealand Ballet
+        venue: National Tour
+      - title: 2025 World of WearableArt Show
+        role: Playback & Soundscape Programmer & Operator
+        company: World of WearableArt (WOW) Ltd
+        venue: TSB Arena
+      - title: Home, Land & Sea
+        role: Head of Sound
+        company: Royal New Zealand Ballet
+        venue: National Tour
+      - title: The Firebird with My Brilliant Career
+        role: Head of Sound
+        company: Royal New Zealand Ballet
+        venue: National Tour
   - title: 2024
     shows:
     # Show Item
