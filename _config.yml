@@ -115,6 +115,13 @@ credit-years:
   - title: 2025
     shows:
     # Show Item
+      - title: Macbeth
+        role: Head of Sound
+        company: Royal New Zealand Ballet
+        venue: National Tour
+  - title: 2025
+    shows:
+    # Show Item
       - title: The Nutcracker
         role: Head of Sound
         company: Royal New Zealand Ballet
